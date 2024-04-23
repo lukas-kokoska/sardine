@@ -1,0 +1,64 @@
+{
+  "breakpoint": {
+    "xs": {
+      "up": {
+        "value": "26.75rem",
+        "type": "dimension",
+        "description": "Mobile device size. Represents the maximum of the width array in this breakpoint."
+      },
+      "down": {
+        "value": "0rem",
+        "type": "dimension",
+        "description": "Mobile device size. Represents the minimum of the width array in this breakpoint."
+      }
+    },
+    "sm": {
+      "up": {
+        "value": "45rem",
+        "type": "dimension",
+        "description": "Small tablet or potrait size. Represents the maximum of the width array in this breakpoint."
+      },
+      "down": {
+        "value": "{breakpoint.xs.up}",
+        "type": "dimension",
+        "description": "Small tablet or potrait size. Represents the minimum of the width array in this breakpoint."
+      }
+    },
+    "md": {
+      "up": {
+        "value": "64rem",
+        "type": "dimension",
+        "description": "Medium tablet or small desktop size. Represents the maximum of the width array in this breakpoint."
+      },
+      "down": {
+        "value": "{breakpoint.sm.up}",
+        "type": "dimension",
+        "description": "Medium tablet or small desktop size. Represents the minimum of the width array in this breakpoint."
+      }
+    },
+    "lg": {
+      "up": {
+        "value": "90rem",
+        "type": "dimension",
+        "description": "Medium desktop size. Represents the maximum of the width array in this breakpoint."
+      },
+      "down": {
+        "value": "{breakpoint.md.up}",
+        "type": "dimension",
+        "description": "Medium desktop size. Represents the minimum of the width array in this breakpoint."
+      }
+    },
+    "xl": {
+      "up": {
+        "value": "113.5rem",
+        "type": "dimension",
+        "description": "Large desktop size (1080p+). Represents the maximum of the width array in this breakpoint."
+      },
+      "down": {
+        "value": "{breakpoint.lg.up}",
+        "type": "dimension",
+        "description": "Large desktop size (1080p+). Represents the minimum of the width array in this breakpoint."
+      }
+    }
+  }
+}

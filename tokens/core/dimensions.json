@@ -1,0 +1,139 @@
+{
+  "rem-base": {
+    "value": "1rem",
+    "type": "dimension",
+    "description": "Global base font size used in all dimension and typography tokens. You can calculate pixel values using \"rem * rem-base = px\" formula. Example: rem-base = 16px and spacing1 = 1.5rem. Then spacing1 = 24px (16 * 1.5)."
+  },
+  "spacing": {
+    "1": {
+      "value": "{rem-base} * 0.125",
+      "type": "dimension"
+    },
+    "2": {
+      "value": "{rem-base} * 0.25",
+      "type": "dimension"
+    },
+    "3": {
+      "value": "{rem-base} * 0.5",
+      "type": "dimension"
+    },
+    "4": {
+      "value": "{rem-base} * 0.75",
+      "type": "dimension"
+    },
+    "5": {
+      "value": "{rem-base} * 1",
+      "type": "dimension"
+    },
+    "6": {
+      "value": "{rem-base} * 1.5",
+      "type": "dimension"
+    },
+    "7": {
+      "value": "{rem-base} * 2",
+      "type": "dimension"
+    },
+    "8": {
+      "value": "{rem-base} * 2.5",
+      "type": "dimension"
+    },
+    "9": {
+      "value": "{rem-base} * 3",
+      "type": "dimension"
+    },
+    "10": {
+      "value": "{rem-base} * 3.5",
+      "type": "dimension"
+    },
+    "11": {
+      "value": "{rem-base} * 4",
+      "type": "dimension"
+    },
+    "12": {
+      "value": "{rem-base} * 4.5",
+      "type": "dimension"
+    },
+    "13": {
+      "value": "{rem-base} * 5",
+      "type": "dimension"
+    },
+    "14": {
+      "value": "{rem-base} * 6",
+      "type": "dimension"
+    },
+    "15": {
+      "value": "{rem-base} * 7",
+      "type": "dimension"
+    },
+    "16": {
+      "value": "{rem-base} * 8",
+      "type": "dimension"
+    }
+  },
+  "border": {
+    "radius": {
+      "sm": {
+        "value": "{rem-base} * 0.25",
+        "type": "dimension"
+      },
+      "md": {
+        "value": "{rem-base} * 0.5",
+        "type": "dimension"
+      },
+      "lg": {
+        "value": "{rem-base} * 0.75",
+        "type": "dimension"
+      },
+      "xl": {
+        "value": "{rem-base} * 1",
+        "type": "dimension"
+      },
+      "xxl": {
+        "value": "{rem-base} * 2",
+        "type": "dimension"
+      },
+      "pill": {
+        "value": "624.938rem",
+        "type": "dimension"
+      }
+    },
+    "width": {
+      "sm": {
+        "value": "{rem-base} * 0.0625",
+        "type": "dimension"
+      },
+      "md": {
+        "value": "{rem-base} * 0.094",
+        "type": "dimension"
+      },
+      "lg": {
+        "value": "{rem-base} * 0.125",
+        "type": "dimension"
+      },
+      "xl": {
+        "value": "{rem-base} * 0.25",
+        "type": "dimension"
+      }
+    }
+  },
+  "size": {
+    "icon": {
+      "sm": {
+        "value": "{rem-base} * 1",
+        "type": "dimension"
+      },
+      "md": {
+        "value": "{rem-base} * 1.5",
+        "type": "dimension"
+      },
+      "lg": {
+        "value": "{rem-base} * 2.5",
+        "type": "dimension"
+      },
+      "xl": {
+        "value": "{rem-base} * 4",
+        "type": "dimension"
+      }
+    }
+  }
+}

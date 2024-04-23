@@ -1,0 +1,7 @@
+{
+  "rem-base": {
+    "value": "1.25rem",
+    "type": "dimension",
+    "description": "Global base font size used in all dimension and typography tokens. You can calculate pixel values using \"rem * rem-base = px\" formula. Example: rem-base = 16px and spacing1 = 1.5rem. Then spacing1 = 24px (16 * 1.5)."
+  }
+}

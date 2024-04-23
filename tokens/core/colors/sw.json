@@ -1,0 +1,55 @@
+{
+  "color": {
+    "sw": {
+      "green": {
+        "50": {
+          "value": "#c8f764",
+          "type": "color",
+          "description": "Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 60:1 against background color.",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "400": {
+          "value": "#80ad1f",
+          "type": "color",
+          "description": "Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 60:1 against background color.",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "500": {
+          "value": "#71a308",
+          "type": "color",
+          "description": "Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 60:1 against background color.",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "700": {
+          "value": "#485F16",
+          "type": "color",
+          "description": "Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 60:1 against background color.",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        },
+        "800": {
+          "value": "#222816",
+          "type": "color",
+          "description": "Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 60:1 against background color.",
+          "$extensions": {
+            "studio.tokens": {}
+          }
+        }
+      }
+    },
+    "brand": {
+      "bg": {
+        "value": "#151621",
+        "type": "color",
+        "description": "Global background color. All color contrasts evaluated and generated against this color."
+      }
+    }
+  }
+}

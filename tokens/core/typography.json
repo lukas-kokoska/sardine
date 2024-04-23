@@ -1,0 +1,339 @@
+{
+  "typography": {
+    "font-heading": {
+      "value": "Poppins",
+      "type": "fontFamilies",
+      "description": "Font applied to large text at the beginning of a page or section."
+    },
+    "font-body": {
+      "value": "Inter",
+      "type": "fontFamilies",
+      "description": "Font applied to regular texts and paragraphs."
+    },
+    "h1": {
+      "value": {
+        "fontFamily": "{typography.font-heading}",
+        "fontWeight": "{typography.font-weight-bold}",
+        "fontSize": "{rem-base} * 6",
+        "lineHeight": "{rem-base} * 7",
+        "letterSpacing": "-2.5%",
+        "textDecoration": "none"
+      },
+      "type": "typography"
+    },
+    "h2": {
+      "value": {
+        "fontFamily": "{typography.font-heading}",
+        "fontWeight": "{typography.font-weight-bold}",
+        "fontSize": "{rem-base} * 4",
+        "lineHeight": "{rem-base} * 4.5",
+        "letterSpacing": "-2.5%",
+        "textDecoration": "none"
+      },
+      "type": "typography"
+    },
+    "h3": {
+      "value": {
+        "fontFamily": "{typography.font-heading}",
+        "fontWeight": "{typography.font-weight-bold}",
+        "fontSize": "{rem-base} * 3",
+        "lineHeight": "{rem-base} * 3.5",
+        "letterSpacing": "-1.5%",
+        "textDecoration": "none"
+      },
+      "type": "typography"
+    },
+    "h4": {
+      "value": {
+        "fontFamily": "{typography.font-heading}",
+        "fontWeight": "{typography.font-weight-bold}",
+        "fontSize": "{rem-base} * 2",
+        "lineHeight": "{rem-base} * 2.25",
+        "letterSpacing": "-1%",
+        "textDecoration": "none"
+      },
+      "type": "typography"
+    },
+    "h5": {
+      "value": {
+        "fontFamily": "{typography.font-heading}",
+        "fontWeight": "{typography.font-weight-bold}",
+        "fontSize": "{rem-base} * 1.5",
+        "lineHeight": "{rem-base} * 2",
+        "letterSpacing": "-0.75%",
+        "textDecoration": "none"
+      },
+      "type": "typography"
+    },
+    "h6": {
+      "value": {
+        "fontFamily": "{typography.font-heading}",
+        "fontWeight": "{typography.font-weight-bold}",
+        "fontSize": "{rem-base} * 1.25",
+        "lineHeight": "{rem-base} * 1.5",
+        "letterSpacing": "-0.5%",
+        "textDecoration": "none"
+      },
+      "type": "typography"
+    },
+    "subtitle1": {
+      "value": {
+        "fontFamily": "{typography.font-body}",
+        "fontWeight": "{typography.font-weight-semibold}",
+        "fontSize": "{rem-base} * 1",
+        "lineHeight": "{rem-base} * 1.5",
+        "letterSpacing": "0.25%",
+        "textDecoration": "none"
+      },
+      "type": "typography"
+    },
+    "subtitle2": {
+      "value": {
+        "fontFamily": "{typography.font-body}",
+        "fontWeight": "{typography.font-weight-semibold}",
+        "fontSize": "{rem-base} * 0.875",
+        "lineHeight": "{rem-base} * 1.25",
+        "letterSpacing": "1%",
+        "textDecoration": "none"
+      },
+      "type": "typography"
+    },
+    "body1": {
+      "value": {
+        "fontFamily": "{typography.font-body}",
+        "fontWeight": "{typography.font-weight-regular}",
+        "fontSize": "{rem-base} * 1",
+        "lineHeight": "{rem-base} * 1.5",
+        "letterSpacing": "0.5%",
+        "textDecoration": "none"
+      },
+      "type": "typography"
+    },
+    "body1-link": {
+      "value": {
+        "fontFamily": "{typography.font-body}",
+        "fontWeight": "{typography.font-weight-regular}",
+        "fontSize": "{rem-base} * 1",
+        "lineHeight": "{rem-base} * 1.5",
+        "letterSpacing": "0.5%",
+        "textDecoration": "underline"
+      },
+      "type": "typography"
+    },
+    "body2": {
+      "value": {
+        "fontFamily": "{typography.font-body}",
+        "fontWeight": "{typography.font-weight-regular}",
+        "fontSize": "{rem-base} * 0.875",
+        "lineHeight": "{rem-base} * 1.25",
+        "letterSpacing": "1.5%",
+        "textDecoration": "none"
+      },
+      "type": "typography"
+    },
+    "body2-link": {
+      "value": {
+        "fontFamily": "{typography.font-body}",
+        "fontWeight": "{typography.font-weight-regular}",
+        "fontSize": "{rem-base} * 0.875",
+        "lineHeight": "{rem-base} * 1.25",
+        "letterSpacing": "1.5%",
+        "textDecoration": "underline"
+      },
+      "type": "typography"
+    },
+    "caption": {
+      "value": {
+        "fontFamily": "{typography.font-body}",
+        "fontSize": "{rem-base} * 0.75",
+        "lineHeight": "{rem-base} * 1",
+        "letterSpacing": "3%",
+        "fontWeight": "{typography.font-weight-medium}",
+        "textDecoration": "none"
+      },
+      "type": "typography"
+    },
+    "caption-link": {
+      "value": {
+        "fontFamily": "{typography.font-body}",
+        "fontSize": "{rem-base} * 0.75",
+        "lineHeight": "{rem-base} * 1",
+        "letterSpacing": "3%",
+        "fontWeight": "{typography.font-weight-medium}",
+        "textDecoration": "underline"
+      },
+      "type": "typography"
+    },
+    "overline": {
+      "value": {
+        "fontFamily": "{typography.font-body}",
+        "fontSize": "{rem-base} * 0.625",
+        "lineHeight": "{rem-base} * 1",
+        "letterSpacing": "10%",
+        "fontWeight": "{typography.font-weight-semibold}",
+        "textDecoration": "none"
+      },
+      "type": "typography"
+    },
+    "component": {
+      "table": {
+        "header": {
+          "value": {
+            "fontFamily": "{typography.font-body}",
+            "fontWeight": "{typography.font-weight-semibold}",
+            "fontSize": "{rem-base} * 0.875",
+            "lineHeight": "{rem-base} * 1.5",
+            "letterSpacing": "1%",
+            "textDecoration": "none"
+          },
+          "type": "typography",
+          "description": "Text style only applied to Table Header in Data Grid component."
+        }
+      },
+      "button": {
+        "large": {
+          "value": {
+            "fontFamily": "{typography.font-body}",
+            "fontWeight": "{typography.font-weight-bold}",
+            "fontSize": "{rem-base} * 0.875",
+            "lineHeight": "{rem-base} * 1.5",
+            "letterSpacing": "0.75%",
+            "textDecoration": "none"
+          },
+          "type": "typography",
+          "description": "Can only be applied to large variant of Button component."
+        },
+        "medium": {
+          "value": {
+            "fontFamily": "{typography.font-body}",
+            "fontWeight": "{typography.font-weight-bold}",
+            "fontSize": "{rem-base} * 0.8125",
+            "lineHeight": "{rem-base} * 1.5",
+            "letterSpacing": "1.25%",
+            "textDecoration": "none"
+          },
+          "type": "typography",
+          "description": "Can only be applied to medium variant of Button component."
+        },
+        "small": {
+          "value": {
+            "fontFamily": "{typography.font-body}",
+            "fontWeight": "{typography.font-weight-bold}",
+            "fontSize": "{rem-base} * 0.75",
+            "lineHeight": "{rem-base} * 1.25",
+            "letterSpacing": "2.75%",
+            "textDecoration": "none"
+          },
+          "type": "typography",
+          "description": "Can only be applied to small variant of Button component."
+        }
+      },
+      "input": {
+        "label": {
+          "value": {
+            "fontFamily": "{typography.font-body}",
+            "fontSize": "{rem-base} * 0.75",
+            "lineHeight": "{rem-base} * 0.75",
+            "letterSpacing": "3%",
+            "fontWeight": "{typography.font-weight-medium}",
+            "textDecoration": "none"
+          },
+          "type": "typography",
+          "description": "Can only be applied to the label of varius Input components. Examples: label in Textfield, label in Select."
+        },
+        "text": {
+          "value": "{typography.body1}",
+          "type": "typography",
+          "description": "Can only be applied to the input text of varius Input components. Examples: value text in Textfield."
+        },
+        "helper-text": {
+          "value": {
+            "fontFamily": "{typography.font-body}",
+            "fontSize": "{rem-base} * 0.75",
+            "lineHeight": "{rem-base} * 1.25",
+            "letterSpacing": "3%",
+            "fontWeight": "{typography.font-weight-medium}",
+            "textDecoration": "none"
+          },
+          "type": "typography",
+          "description": "Can only be applied to the helper message at the bottom of various Input components. Examples: helper text in Textfield."
+        }
+      },
+      "avatar": {
+        "initials": {
+          "value": {
+            "fontFamily": "{typography.font-body}",
+            "fontSize": "{rem-base} * 1.25",
+            "lineHeight": "{rem-base} * 1.25",
+            "letterSpacing": "0%",
+            "fontWeight": "{typography.font-weight-regular}",
+            "textDecoration": "none"
+          },
+          "type": "typography",
+          "description": "Can only be applied in Avatar component to display user's initials."
+        }
+      },
+      "alert": {
+        "title": {
+          "value": "{typography.subtitle1}",
+          "type": "typography",
+          "description": "Can only be applied to the header text of Alert component in Material UI."
+        }
+      },
+      "chip": {
+        "value": {
+          "fontFamily": "{typography.font-body}",
+          "fontSize": "{rem-base} * 0.875",
+          "lineHeight": "{rem-base} * 1.125",
+          "letterSpacing": "1.5%",
+          "fontWeight": "{typography.font-weight-regular}",
+          "textDecoration": "none"
+        },
+        "type": "typography",
+        "description": "Can only be applied to text in Chips."
+      },
+      "tooltip": {
+        "value": {
+          "fontFamily": "{typography.font-body}",
+          "fontSize": "{rem-base} * 0.625",
+          "lineHeight": "{rem-base} * 0.875",
+          "letterSpacing": "3%",
+          "fontWeight": "{typography.font-weight-semibold}",
+          "textDecoration": "none"
+        },
+        "type": "typography",
+        "description": "Can only be applied to text in Tooltips."
+      },
+      "badge": {
+        "label": {
+          "value": {
+            "fontFamily": "{typography.font-body}",
+            "fontSize": "{rem-base} * 0.6875",
+            "lineHeight": "{rem-base} * 1.25",
+            "letterSpacing": "0.5%",
+            "fontWeight": "{typography.font-weight-bold}",
+            "textDecoration": "none"
+          },
+          "type": "typography",
+          "description": "Can only be applied to text in Badge."
+        }
+      }
+    },
+    "font-weight-regular": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "font-weight-medium": {
+      "value": "Medium",
+      "type": "fontWeights"
+    },
+    "font-weight-semibold": {
+      "value": "Semi Bold",
+      "type": "fontWeights"
+    },
+    "font-weight-bold": {
+      "value": "Bold",
+      "type": "fontWeights"
+    }
+  }
+}

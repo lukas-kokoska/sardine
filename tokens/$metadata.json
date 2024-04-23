@@ -1,0 +1,23 @@
+{
+  "tokenSetOrder": [
+    "core/colors/anchovi-light",
+    "core/colors/anchovi-dark",
+    "core/colors/parrot",
+    "core/colors/sw",
+    "core/breakpoints",
+    "core/dimensions",
+    "core/duration",
+    "core/elevation",
+    "core/grid",
+    "core/typography",
+    "density/larger",
+    "themes/anchovi-light",
+    "themes/anchovi-dark",
+    "themes/leonardo-light",
+    "themes/leonardo-dark",
+    "themes/parrot-light",
+    "themes/sw-dark",
+    "resources/leonardo-export-light",
+    "resources/leonardo-export-dark"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "duration": {
+    "instant": {
+      "value": "0",
+      "type": "number"
+    },
+    "shortest": {
+      "value": "75",
+      "type": "number"
+    },
+    "short": {
+      "value": "150",
+      "type": "number"
+    },
+    "standard": {
+      "value": "300",
+      "type": "number"
+    },
+    "slower": {
+      "value": "450",
+      "type": "number"
+    },
+    "slow": {
+      "value": "600",
+      "type": "number"
+    }
+  }
+}

@@ -1,0 +1,1154 @@
+{
+  "color": {
+    "default": {
+      "primary": {
+        "value": "{color.brand.grey.900}",
+        "type": "color",
+        "description": "Preferred for fluent and columns of body text. Examples: Body, block text, and long-form text."
+      },
+      "secondary": {
+        "value": "{color.brand.grey.900}",
+        "type": "color",
+        "description": "Can be used for columns of body text. Examples: Body and block text.",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.76",
+              "space": "srgb"
+            }
+          }
+        }
+      },
+      "tertiary": {
+        "value": "{color.brand.grey.900}",
+        "type": "color",
+        "description": "Can be used for content text that is intended to be read but is not body, column or block text. Examples: Titles, kickers, and short snippets.",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.5",
+              "space": "srgb"
+            }
+          }
+        }
+      },
+      "quartenary": {
+        "value": "{color.brand.grey.900}",
+        "type": "color",
+        "description": "Can be used for any non-content text considered as “spot readable”. Examples: Placeholder text, disabled element text, copyright text, mostly-solid icons.",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.25",
+              "space": "srgb"
+            }
+          }
+        }
+      },
+      "quinary": {
+        "value": "{color.brand.grey.900}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be discernible and differentiable. Examples: Dividers, large buttons, thick focus outlines.",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.13",
+              "space": "srgb"
+            }
+          }
+        }
+      },
+      "senary": {
+        "value": "{color.brand.grey.900}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be barely differentiable. Examples: Dividers, backgrounds.",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.08",
+              "space": "srgb"
+            }
+          }
+        }
+      },
+      "septenary": {
+        "value": "{color.brand.grey.900}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be barely differentiable. Examples: Dividers, backgrounds.",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.04",
+              "space": "srgb"
+            }
+          }
+        }
+      },
+      "states": {
+        "contained-hover-background": {
+          "value": "{color.brand.grey.900}",
+          "type": "color",
+          "description": "Background color of filled object in hovered state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.08",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "contained-pressed-background": {
+          "value": "{color.brand.grey.900}",
+          "type": "color",
+          "description": "Background color of filled object in pressed state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.16",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      }
+    },
+    "inverse": {
+      "primary": {
+        "value": "{color.brand.bg}",
+        "type": "color",
+        "description": "Preferred for fluent and columns of body text. Examples: Body, block text, and long-form text."
+      },
+      "secondary": {
+        "value": "{color.brand.bg}",
+        "type": "color",
+        "description": "Can be used for content text that is intended to be read but is not body, column or block text. Examples: Titles, kickers, and short snippets.",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.7",
+              "space": "srgb"
+            }
+          }
+        }
+      },
+      "tertiary": {
+        "value": "{color.brand.bg}",
+        "type": "color",
+        "description": "Can be used for any non-content text considered as “spot readable”. Examples: Placeholder text, disabled element text, copyright text, mostly-solid icons.",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.5",
+              "space": "srgb"
+            }
+          }
+        }
+      },
+      "quartenary": {
+        "value": "{color.brand.bg}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be discernible and differentiable. Examples: Dividers, large buttons, thick focus outlines.",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.3",
+              "space": "srgb"
+            }
+          }
+        }
+      },
+      "quinary": {
+        "value": "{color.brand.bg}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be barely differentiable. Examples: Dividers, backgrounds.",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.16",
+              "space": "srgb"
+            }
+          }
+        }
+      },
+      "senary": {
+        "value": "{color.brand.bg}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be barely differentiable. Examples: Dividers, backgrounds.",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.08",
+              "space": "srgb"
+            }
+          }
+        }
+      },
+      "septenary": {
+        "value": "{color.brand.bg}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be barely differentiable. Examples: Dividers, backgrounds.",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.04",
+              "space": "srgb"
+            }
+          }
+        }
+      },
+      "states": {
+        "contained-hover-background": {
+          "value": "{color.brand.bg}",
+          "type": "color",
+          "description": "Background color of filled object in hovered state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.08",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "contained-pressed-background": {
+          "value": "{color.brand.bg}",
+          "type": "color",
+          "description": "Background color of filled object in pressed state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.13",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      }
+    },
+    "text": {
+      "primary": {
+        "value": "{color.brand.grey.900}",
+        "type": "color",
+        "description": "Preferred for fluent and columns of body text. Examples: Body, block text, and long-form text."
+      },
+      "secondary": {
+        "value": "{color.brand.grey.900}",
+        "type": "color",
+        "description": "Can be used for columns of body text. Examples: Body and block text.",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.76",
+              "space": "srgb"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "value": "{color.brand.grey.900}",
+        "type": "color",
+        "description": "Text color for disabled, unavailable or blocked states.",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.5",
+              "space": "srgb"
+            }
+          }
+        }
+      }
+    },
+    "primary": {
+      "lighter": {
+        "value": "{color.brand.red.50}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be discernible and differentiable. Examples: notification background, background of large icons."
+      },
+      "highlight": {
+        "value": "{color.brand.red.300}",
+        "type": "color",
+        "description": "Used to change the tone of certain texts on inverse background. Can be used for any non-text elements on default background. Examples: highlighted header text, part of an illustration."
+      },
+      "light": {
+        "value": "{color.brand.red.400}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be discernible and differentiable. Examples: Backgrounds, large icons, illustrations."
+      },
+      "main": {
+        "value": "{color.brand.red.500}",
+        "type": "color",
+        "description": "Used as background color for most interactive elements. Can be used for branded backgrounds, icons and text."
+      },
+      "dark": {
+        "value": "{color.brand.red.700}",
+        "type": "color",
+        "description": "Can be used for fluend and columns of body text, or as complementary background color. Examples: emphasised body text, background of illustration."
+      },
+      "contrast": {
+        "value": "{color.brand.bg}",
+        "type": "color",
+        "description": "Used for content sitting on top of the main color."
+      },
+      "states": {
+        "contained-hover-background": {
+          "value": "{color.primary.main}",
+          "type": "color",
+          "description": "Background color of filled object in hovered state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.08",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "contained-pressed-background": {
+          "value": "{color.primary.main}",
+          "type": "color",
+          "description": "Background color of filled object in pressed state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.16",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "outlined-resting-border": {
+          "value": "{color.primary.main}",
+          "type": "color",
+          "description": "Border color of interactive component in this color.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "outlined-hover-background": {
+          "value": "{color.primary.main}",
+          "type": "color",
+          "description": "Background color of outlined object in hovered state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.08",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "outlined-pressed-background": {
+          "value": "{color.primary.main}",
+          "type": "color",
+          "description": "Background color of outlined object in pressed state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.16",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        }
+      }
+    },
+    "secondary": {
+      "lighter": {
+        "value": "{color.brand.blue.50}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be discernible and differentiable. Examples: notification background, background of large icons."
+      },
+      "highlight": {
+        "value": "{color.brand.blue.300}",
+        "type": "color",
+        "description": "Used to change the tone of certain texts on inverse background. Can be used for any non-text elements on default background. Examples: highlighted header text, part of an illustration."
+      },
+      "light": {
+        "value": "{color.brand.blue.400}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be discernible and differentiable. Examples: Backgrounds, large icons, illustrations."
+      },
+      "main": {
+        "value": "{color.brand.blue.600}",
+        "type": "color",
+        "description": "Lesser used color for certain interactive elements. Can be used for branded backgrounds, icons and text."
+      },
+      "dark": {
+        "value": "{color.brand.blue.800}",
+        "type": "color",
+        "description": "Can be used for fluend and columns of body text, or as complementary background color. Examples: emphasised body text, background of illustration."
+      },
+      "contrast": {
+        "value": "{color.brand.bg}",
+        "type": "color",
+        "description": "Used for content sitting on top of the main color."
+      },
+      "states": {
+        "contained-hover-background": {
+          "value": "{color.secondary.main}",
+          "type": "color",
+          "description": "Background color of filled object in hovered state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.08",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "contained-pressed-background": {
+          "value": "{color.secondary.main}",
+          "type": "color",
+          "description": "Background color of filled object in pressed state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.16",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "outlined-resting-border": {
+          "value": "{color.secondary.main}",
+          "type": "color",
+          "description": "Border color of interactive component in this color.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "outlined-hover-background": {
+          "value": "{color.secondary.main}",
+          "type": "color",
+          "description": "Background color of outlined object in hovered state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.08",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "outlined-pressed-background": {
+          "value": "{color.secondary.main}",
+          "type": "color",
+          "description": "Background color of outlined object in pressed state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.16",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        }
+      }
+    },
+    "success": {
+      "lighter": {
+        "value": "{color.brand.green.50}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be discernible and differentiable. Examples: notification background, background of large icons."
+      },
+      "highlight": {
+        "value": "{color.brand.green.200}",
+        "type": "color",
+        "description": "Used to change the tone of certain texts on inverse background. Can be used for any non-text elements on default background. Examples: highlighted header text, part of an illustration."
+      },
+      "light": {
+        "value": "{color.brand.green.400}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be discernible and differentiable. Examples: Backgrounds, large icons, illustrations."
+      },
+      "main": {
+        "value": "{color.brand.green.600}",
+        "type": "color",
+        "description": "Used as background color for most interactive elements. Can be used for branded backgrounds, icons and text."
+      },
+      "dark": {
+        "value": "{color.brand.green.700}",
+        "type": "color",
+        "description": "Can be used for fluend and columns of body text, or as complementary background color. Examples: emphasised body text, background of illustration."
+      },
+      "contrast": {
+        "value": "{color.brand.bg}",
+        "type": "color",
+        "description": "Used for content sitting on top of the main color."
+      },
+      "states": {
+        "contained-hover-background": {
+          "value": "{color.success.main}",
+          "type": "color",
+          "description": "Background color of filled object in hovered state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.08",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "contained-pressed-background": {
+          "value": "{color.success.main}",
+          "type": "color",
+          "description": "Background color of filled object in pressed state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.16",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "outlined-resting-border": {
+          "value": "{color.success.main}",
+          "type": "color",
+          "description": "Border color of interactive component in this color.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "outlined-hover-background": {
+          "value": "{color.success.main}",
+          "type": "color",
+          "description": "Background color of outlined object in hovered state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.08",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "outlined-pressed-background": {
+          "value": "{color.success.main}",
+          "type": "color",
+          "description": "Background color of outlined object in pressed state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.16",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        }
+      },
+      "alert": {
+        "background": {
+          "value": "{color.brand.green.50}",
+          "type": "color",
+          "description": "Used for background of success notification."
+        },
+        "content": {
+          "value": "{color.brand.green.700}",
+          "type": "color",
+          "description": "Used for text, icons and imagery in success notification."
+        }
+      }
+    },
+    "warning": {
+      "lighter": {
+        "value": "{color.brand.yellow.50}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be discernible and differentiable. Examples: notification background, background of large icons."
+      },
+      "highlight": {
+        "value": "{color.brand.yellow.200}",
+        "type": "color",
+        "description": "Used to change the tone of certain texts on inverse background. Can be used for any non-text elements on default background. Examples: highlighted header text, part of an illustration."
+      },
+      "light": {
+        "value": "{color.brand.yellow.200}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be discernible and differentiable. Examples: Backgrounds, large icons, illustrations."
+      },
+      "main": {
+        "value": "{color.brand.yellow.300}",
+        "type": "color",
+        "description": "Used as background color for most interactive elements. Can be used for branded backgrounds, icons and text."
+      },
+      "dark": {
+        "value": "{color.brand.yellow.600}",
+        "type": "color",
+        "description": "Can be used for fluend and columns of body text, or as complementary background color. Examples: emphasised body text, background of illustration."
+      },
+      "contrast": {
+        "value": "{color.brand.grey.900}",
+        "type": "color",
+        "description": "Used for content sitting on top of the main color."
+      },
+      "states": {
+        "contained-hover-background": {
+          "value": "{color.warning.main}",
+          "type": "color",
+          "description": "Background color of filled object in hovered state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.08",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "contained-pressed-background": {
+          "value": "{color.warning.main}",
+          "type": "color",
+          "description": "Background color of filled object in pressed state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.16",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "outlined-resting-border": {
+          "value": "{color.warning.dark}",
+          "type": "color",
+          "description": "Border color of interactive component in this color.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "outlined-hover-background": {
+          "value": "{color.warning.dark}",
+          "type": "color",
+          "description": "Background color of outlined object in hovered state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.08",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "outlined-pressed-background": {
+          "value": "{color.warning.dark}",
+          "type": "color",
+          "description": "Background color of outlined object in pressed state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.16",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        }
+      },
+      "alert": {
+        "background": {
+          "value": "{color.brand.yellow.50}",
+          "type": "color",
+          "description": "Used for background of warning notification."
+        },
+        "content": {
+          "value": "{color.brand.yellow.700}",
+          "type": "color",
+          "description": "Used for text, icons and imagery in warning notification."
+        }
+      }
+    },
+    "error": {
+      "lighter": {
+        "value": "{color.brand.red.50}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be discernible and differentiable. Examples: notification background, background of large icons."
+      },
+      "highlight": {
+        "value": "{color.brand.red.500}",
+        "type": "color",
+        "description": "Used to change the tone of certain texts on inverse background. Can be used for any non-text elements on default background. Examples: highlighted header text, part of an illustration."
+      },
+      "light": {
+        "value": "{color.brand.red.400}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be discernible and differentiable. Examples: Backgrounds, large icons, illustrations."
+      },
+      "main": {
+        "value": "{color.brand.red.600}",
+        "type": "color",
+        "description": "Used as background color for most interactive elements. Can be used for branded backgrounds, icons and text."
+      },
+      "dark": {
+        "value": "{color.brand.red.700}",
+        "type": "color",
+        "description": "Can be used for fluend and columns of body text, or as complementary background color. Examples: emphasised body text, background of illustration."
+      },
+      "contrast": {
+        "value": "{color.brand.bg}",
+        "type": "color",
+        "description": "Used for content sitting on top of the main color."
+      },
+      "states": {
+        "contained-hover-background": {
+          "value": "{color.error.main}",
+          "type": "color",
+          "description": "Background color of filled object in hovered state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.08",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "contained-pressed-background": {
+          "value": "{color.error.main}",
+          "type": "color",
+          "description": "Background color of filled object in pressed state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.16",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "outlined-resting-border": {
+          "value": "{color.error.main}",
+          "type": "color",
+          "description": "Border color of interactive component in this color.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "outlined-hover-background": {
+          "value": "{color.error.main}",
+          "type": "color",
+          "description": "Background color of outlined object in hovered state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.08",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "outlined-pressed-background": {
+          "value": "{color.error.main}",
+          "type": "color",
+          "description": "Background color of outlined object in pressed state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.16",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        }
+      },
+      "alert": {
+        "background": {
+          "value": "{color.brand.red.50}",
+          "type": "color",
+          "description": "Used for background of error notification."
+        },
+        "content": {
+          "value": "{color.brand.red.700}",
+          "type": "color",
+          "description": "Used for text, icons and imagery in error notification."
+        }
+      }
+    },
+    "info": {
+      "lighter": {
+        "value": "{color.brand.blue.50}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be discernible and differentiable. Examples: notification background, background of large icons."
+      },
+      "highlight": {
+        "value": "{color.brand.blue.300}",
+        "type": "color",
+        "description": "Used to change the tone of certain texts on inverse background. Can be used for any non-text elements on default background. Examples: highlighted header text, part of an illustration."
+      },
+      "light": {
+        "value": "{color.brand.blue.400}",
+        "type": "color",
+        "description": "Can be used for any non-text elements that need to be discernible and differentiable. Examples: Backgrounds, large icons, illustrations."
+      },
+      "main": {
+        "value": "{color.brand.blue.600}",
+        "type": "color",
+        "description": "Used as background color for most interactive elements. Can be used for branded backgrounds, icons and text."
+      },
+      "dark": {
+        "value": "{color.brand.blue.800}",
+        "type": "color",
+        "description": "Can be used for fluend and columns of body text, or as complementary background color. Examples: emphasised body text, background of illustration."
+      },
+      "contrast": {
+        "value": "{color.brand.bg}",
+        "type": "color",
+        "description": "Used for content sitting on top of the main color."
+      },
+      "states": {
+        "contained-hover-background": {
+          "value": "{color.info.main}",
+          "type": "color",
+          "description": "Background color of filled object in hovered state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.08",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "contained-pressed-background": {
+          "value": "{color.info.main}",
+          "type": "color",
+          "description": "Background color of filled object in pressed state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.16",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "outlined-resting-border": {
+          "value": "{color.info.main}",
+          "type": "color",
+          "description": "Border color of interactive component in this color.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "outlined-hover-background": {
+          "value": "{color.info.main}",
+          "type": "color",
+          "description": "Background color of outlined object in hovered state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.08",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        },
+        "outlined-pressed-background": {
+          "value": "{color.info.main}",
+          "type": "color",
+          "description": "Background color of outlined object in pressed state.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.16",
+                "space": "srgb",
+                "color": "{color.inverse.primary} "
+              }
+            }
+          }
+        }
+      },
+      "alert": {
+        "background": {
+          "value": "{color.brand.blue.50}",
+          "type": "color",
+          "description": "Used for background of informational notification."
+        },
+        "content": {
+          "value": "{color.brand.blue.700}",
+          "type": "color",
+          "description": "Used for text, icons and imagery in info notification."
+        }
+      }
+    },
+    "background": {
+      "default": {
+        "value": "{color.brand.bg}",
+        "type": "color",
+        "description": "Used as global background color of the entire app."
+      },
+      "paper": {
+        "value": "{color.brand.bg}",
+        "type": "color",
+        "description": "Used as global background color of elements with higher vertical index."
+      },
+      "alt": {
+        "value": "{color.brand.bg}",
+        "type": "color",
+        "description": "Can be used as background color of particulcar screen or section.",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "mix",
+              "value": "0.04",
+              "space": "srgb",
+              "color": "{color.default.primary} "
+            }
+          }
+        }
+      }
+    },
+    "personalization": {
+      "one": {
+        "value": "{color.brand.red.700}",
+        "type": "color",
+        "description": "Can only be used on content that requires user to input their choice. Examples: color picker."
+      },
+      "two": {
+        "value": "{color.brand.orange.500}",
+        "type": "color",
+        "description": "Can only be used on content that requires user to input their choice. Examples: color picker."
+      },
+      "three": {
+        "value": "{color.brand.yellow.300}",
+        "type": "color",
+        "description": "Can only be used on content that requires user to input their choice. Examples: color picker."
+      },
+      "four": {
+        "value": "{color.brand.blue.600}",
+        "type": "color",
+        "description": "Can only be used on content that requires user to input their choice. Examples: color picker."
+      },
+      "five": {
+        "value": "{color.brand.green.400}",
+        "type": "color",
+        "description": "Can only be used on content that requires user to input their choice. Examples: color picker."
+      },
+      "six": {
+        "value": "{color.brand.yellow.700}",
+        "type": "color",
+        "description": "Can only be used on content that requires user to input their choice. Examples: color picker."
+      },
+      "seven": {
+        "value": "{color.brand.blue.400}",
+        "type": "color",
+        "description": "Can only be used on content that requires user to input their choice. Examples: color picker."
+      },
+      "eight": {
+        "value": "{color.brand.green.700}",
+        "type": "color",
+        "description": "Can only be used on content that requires user to input their choice. Examples: color picker."
+      }
+    },
+    "action": {
+      "active": {
+        "value": "{color.default.secondary}",
+        "type": "color",
+        "description": "Can only be applied to certain flat interactive elements. Examples: icon button."
+      },
+      "hover": {
+        "value": "{color.default.senary}",
+        "type": "color",
+        "description": "Can only be applied to certain flat interactive elements in hovered state. Examples: icon button."
+      },
+      "selected": {
+        "value": "{color.default.primary}",
+        "type": "color",
+        "description": "Can only be applied as background color to an element in selection. Examples: selected items in a vertical list.",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.1",
+              "space": "srgb"
+            }
+          }
+        }
+      },
+      "disabled-background": {
+        "value": "{color.default.quinary}",
+        "type": "color",
+        "description": "Can only be applied as background color of a disabled, interactive element. Examples: text button."
+      },
+      "disabled": {
+        "value": "{color.default.tertiary}",
+        "type": "color",
+        "description": "Can only be applied as content color of a disabled, interactive element. Examples: text in a disabled button."
+      }
+    },
+    "other": {
+      "divider": {
+        "value": "{color.default.senary}",
+        "type": "color",
+        "description": "Can only be applied on dividers and other borders separating parts of the content."
+      },
+      "outlined-border": {
+        "value": "{color.default.quartenary}",
+        "type": "color",
+        "description": "Can only be applied as border color to certain elements. Examples: Border of a card or accordion section."
+      },
+      "standard-input-line": {
+        "value": "{color.default.secondary}",
+        "type": "color",
+        "description": "Can only be applied to underlined input border in resting state."
+      },
+      "filled-input-background": {
+        "value": "{color.default.senary}",
+        "type": "color",
+        "description": "Can only be applied as background color to filled input in resting state."
+      },
+      "backdrop-overlay": {
+        "value": "{color.default.secondary}",
+        "type": "color",
+        "description": "Can only be applied to background overlays visible behind a modal or dialog."
+      },
+      "rating-active": {
+        "value": "{color.brand.yellow.300}",
+        "type": "color",
+        "description": "Can only be applied to a rating component in Material UI."
+      },
+      "snackbar-background": {
+        "value": "{color.default.primary}",
+        "type": "color",
+        "description": "Can only be applied as background color to Snackbar component."
+      }
+    }
+  },
+  "border": {
+    "action-focused": {
+      "value": {
+        "color": "{color.secondary.main}",
+        "width": "0.125rem",
+        "style": "solid"
+      },
+      "type": "border",
+      "description": "Can only be applied as border of a focused interactive or non-interactive element."
+    }
+  },
+  "typography": {
+    "font-heading": {
+      "value": "Fira Sans Condensed",
+      "type": "fontFamilies"
+    },
+    "font-body": {
+      "value": "Fira Sans",
+      "type": "fontFamilies"
+    },
+    "font-weight-semibold": {
+      "value": "Bold",
+      "type": "fontWeights"
+    },
+    "font-weight-medium": {
+      "value": "Medium",
+      "type": "fontWeights"
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "grid": {
+    "xl": {
+      "pattern": {
+        "value": "columns",
+        "type": "text",
+        "description": "Large desktop (1080p+) size. Use with breakpoint.xl token."
+      },
+      "alignment": {
+        "value": "center",
+        "type": "text",
+        "description": "Large desktop (1080p+) size. Use with breakpoint.xl token."
+      },
+      "column-width": {
+        "value": "{rem-base} * 4.5",
+        "type": "dimension",
+        "description": "Large desktop (1080p+) size. Use with breakpoint.xl token."
+      },
+      "column-gap": {
+        "value": "{rem-base} * 1.5",
+        "type": "dimension",
+        "description": "Large desktop (1080p+) size. Use with breakpoint.xl token."
+      },
+      "column-count": {
+        "value": "12",
+        "type": "number",
+        "description": "Large desktop (1080p+) size. Use with breakpoint.xl token."
+      },
+      "offset": {
+        "value": "0rem",
+        "type": "dimension",
+        "description": "Large desktop (1080p+) size. Use with breakpoint.xl token."
+      }
+    },
+    "lg": {
+      "pattern": {
+        "value": "columns",
+        "type": "text",
+        "description": "Medium desktop. Use with breakpoint.lg token."
+      },
+      "alignment": {
+        "value": "auto",
+        "type": "text",
+        "description": "Medium desktop. Use with breakpoint.lg token."
+      },
+      "column-width": {
+        "value": "auto",
+        "type": "text",
+        "description": "Medium desktop. Use with breakpoint.lg token."
+      },
+      "margin": {
+        "value": "{rem-base} * 12.5",
+        "type": "dimension",
+        "description": "Medium desktop. Use with breakpoint.lg token."
+      },
+      "column-gap": {
+        "value": "{rem-base} * 1.5",
+        "type": "dimension",
+        "description": "Medium desktop. Use with breakpoint.lg token."
+      },
+      "column-count": {
+        "value": "12",
+        "type": "number",
+        "description": "Medium desktop. Use with breakpoint.lg token."
+      }
+    },
+    "md": {
+      "pattern": {
+        "value": "columns",
+        "type": "text",
+        "description": "Medium tablet or small desktop. Use with breakpoint.md token."
+      },
+      "alignment": {
+        "value": "auto",
+        "type": "text",
+        "description": "Medium tablet or small desktop. Use with breakpoint.md token."
+      },
+      "column-width": {
+        "value": "auto",
+        "type": "text",
+        "description": "Medium tablet or small desktop. Use with breakpoint.md token."
+      },
+      "margin": {
+        "value": "{rem-base} * 1.5",
+        "type": "dimension",
+        "description": "Medium tablet or small desktop. Use with breakpoint.md token."
+      },
+      "column-gap": {
+        "value": "{rem-base} * 1.5",
+        "type": "dimension",
+        "description": "Medium tablet or small desktop. Use with breakpoint.md token."
+      },
+      "column-count": {
+        "value": "12",
+        "type": "number",
+        "description": "Medium tablet or small desktop. Use with breakpoint.md token."
+      }
+    },
+    "sm": {
+      "pattern": {
+        "value": "columns",
+        "type": "text",
+        "description": "Small tablet or potrait size. Use with breakpoint.sm token."
+      },
+      "alignment": {
+        "value": "center",
+        "type": "text",
+        "description": "Small tablet or potrait size. Use with breakpoint.sm token."
+      },
+      "column-width": {
+        "value": "{rem-base} * 1.5",
+        "type": "dimension",
+        "description": "Small tablet or potrait size. Use with breakpoint.sm token."
+      },
+      "column-gap": {
+        "value": "{rem-base} * 1.5",
+        "type": "dimension",
+        "description": "Small tablet or potrait size. Use with breakpoint.sm token."
+      },
+      "offset": {
+        "value": "0rem",
+        "type": "dimension",
+        "description": "Small tablet or potrait size. Use with breakpoint.sm token."
+      },
+      "column-count": {
+        "value": "12",
+        "type": "number",
+        "description": "Small tablet or potrait size. Use with breakpoint.sm token."
+      }
+    },
+    "xs": {
+      "pattern": {
+        "value": "columns",
+        "type": "text",
+        "description": "Mobile device size. Use with breakpoint.xs token."
+      },
+      "alignment": {
+        "value": "auto",
+        "type": "text",
+        "description": "Mobile device size. Use with breakpoint.xs token."
+      },
+      "column-width": {
+        "value": "auto",
+        "type": "text",
+        "description": "Mobile device size. Use with breakpoint.xs token."
+      },
+      "margin": {
+        "value": "{rem-base} * 1",
+        "type": "dimension",
+        "description": "Mobile device size. Use with breakpoint.xs token."
+      },
+      "column-gap": {
+        "value": "{rem-base} * 1",
+        "type": "dimension",
+        "description": "Mobile device size. Use with breakpoint.xs token."
+      },
+      "column-count": {
+        "value": "12",
+        "type": "number",
+        "description": "Mobile device size. Use with breakpoint.xs token."
+      }
+    }
+  }
+}
